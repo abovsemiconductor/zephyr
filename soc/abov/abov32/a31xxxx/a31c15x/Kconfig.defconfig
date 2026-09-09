@@ -1,0 +1,14 @@
+# Copyright (c) 2026 ABOV Semiconductor Co., Ltd.
+# SPDX-License-Identifier: Apache-2.0
+
+# ABOV Semiconductor A31C15x MCU series
+
+if SOC_SERIES_A31C15X
+
+config NUM_IRQS
+	default 32
+
+config SYS_CLOCK_HW_CYCLES_PER_SEC
+	default 48000000
+
+endif # SOC_SERIES_A31C15X
